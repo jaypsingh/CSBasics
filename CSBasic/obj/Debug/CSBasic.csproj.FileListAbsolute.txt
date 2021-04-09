@@ -1,0 +1,14 @@
+D:\JPS\Code\CS\CSBasic\CSBasic\bin\Debug\CSBasic.exe.config
+D:\JPS\Code\CS\CSBasic\CSBasic\bin\Debug\CSBasic.exe
+D:\JPS\Code\CS\CSBasic\CSBasic\bin\Debug\CSBasic.pdb
+D:\JPS\Code\CS\CSBasic\CSBasic\obj\Debug\CSBasic.csprojAssemblyReference.cache
+D:\JPS\Code\CS\CSBasic\CSBasic\obj\Debug\CSBasic.csproj.CoreCompileInputs.cache
+D:\JPS\Code\CS\CSBasic\CSBasic\obj\Debug\CSBasic.exe
+D:\JPS\Code\CS\CSBasic\CSBasic\obj\Debug\CSBasic.pdb
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\bin\Debug\CSBasic.exe.config
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\bin\Debug\CSBasic.exe
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\bin\Debug\CSBasic.pdb
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.csprojAssemblyReference.cache
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.csproj.CoreCompileInputs.cache
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.exe
+C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.pdb
