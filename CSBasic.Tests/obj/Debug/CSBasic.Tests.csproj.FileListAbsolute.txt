@@ -20,3 +20,14 @@ C:\JayPS\Git\CSBasic\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.csproj.CoreCo
 C:\JayPS\Git\CSBasic\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.csproj.CopyComplete
 C:\JayPS\Git\CSBasic\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.dll
 C:\JayPS\Git\CSBasic\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.pdb
+C:\JayPS\Git\CSBasic\CSBasic.Tests\bin\Debug\CSBasic.Tests.dll
+C:\JayPS\Git\CSBasic\CSBasic.Tests\bin\Debug\CSBasic.Tests.pdb
+C:\JayPS\Git\CSBasic\CSBasic.Tests\bin\Debug\CSBasic.exe
+C:\JayPS\Git\CSBasic\CSBasic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\JayPS\Git\CSBasic\CSBasic.Tests\bin\Debug\CSBasic.pdb
+C:\JayPS\Git\CSBasic\CSBasic.Tests\bin\Debug\CSBasic.exe.config
+C:\JayPS\Git\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.csprojAssemblyReference.cache
+C:\JayPS\Git\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.csproj.CoreCompileInputs.cache
+C:\JayPS\Git\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.csproj.CopyComplete
+C:\JayPS\Git\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.dll
+C:\JayPS\Git\CSBasic\CSBasic.Tests\obj\Debug\CSBasic.Tests.pdb

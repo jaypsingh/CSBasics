@@ -12,3 +12,9 @@ C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.csprojAssemblyReference.c
 C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.csproj.CoreCompileInputs.cache
 C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.exe
 C:\JayPS\Git\CSBasic\CSBasic\CSBasic\obj\Debug\CSBasic.pdb
+C:\JayPS\Git\CSBasic\CSBasic\bin\Debug\CSBasic.exe.config
+C:\JayPS\Git\CSBasic\CSBasic\bin\Debug\CSBasic.exe
+C:\JayPS\Git\CSBasic\CSBasic\bin\Debug\CSBasic.pdb
+C:\JayPS\Git\CSBasic\CSBasic\obj\Debug\CSBasic.csproj.CoreCompileInputs.cache
+C:\JayPS\Git\CSBasic\CSBasic\obj\Debug\CSBasic.exe
+C:\JayPS\Git\CSBasic\CSBasic\obj\Debug\CSBasic.pdb

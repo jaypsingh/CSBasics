@@ -22,12 +22,44 @@ namespace CSBasic
             System.Console.WriteLine("---------------------------");
             System.Console.WriteLine("---------------------------\n");
 
+            //This is LambdaMethod
+            System.Console.WriteLine("----- LambdaMethod Demo -----");
+            var lamdaObj = new LambdaMethod();
+            var sumValue = lamdaObj.GetSum(11.1, 22.2);
+            Console.WriteLine($"Sum is: {sumValue}");            
+            System.Console.WriteLine("---------------------------\n");
+
+            //This is NullChecking Demo
+            System.Console.WriteLine("----- NullChecking Demo -----");
+            var nullCheckObj = new NullCheckingDemo();
+            var nullvar = nullCheckObj.CheckForNull();
+            Console.WriteLine($"This is a null value: {nullvar}");
+            var doubleVal = nullCheckObj.GetCostValue();
+            Console.WriteLine($"This is a not a null value: {doubleVal}");
+            System.Console.WriteLine("---------------------------\n");
+
+            //This is NullableType Demo
+            System.Console.WriteLine("----- NullableType Demo -----");
+            var nullTypeObj = new NullableTypeDemo();
+            var costAfterDiscount = nullTypeObj.ApplyFlatDiscount(10);
+            Console.WriteLine($"Cost after first discount: {costAfterDiscount}");
+            var costAfterMoreDiscount = nullTypeObj.ApplyPercentDiscount(10);
+            Console.WriteLine($"Cost after More discount: {costAfterMoreDiscount}");
+            System.Console.WriteLine("---------------------------\n");
+
+            //This is Enums Demo
+            System.Console.WriteLine("----- Enums Demo -----");
+            var enumObj = new EnumDemo();
+            enumObj.PrintEnumValues();
+            System.Console.WriteLine("---------------------------\n");
+
             //This is ObjectInitializerDemo Demo
             System.Console.WriteLine("----- ObjectInitializerDemo -----");
             // This is example of Default constructor
             var dcObj = new DefaultConstructor();
             dcObj.SuperHeroName = "SuperMan";
             dcObj.Power = 9.0;
+            System.Console.WriteLine("---------------------------\n");
 
             // This is example of Object Initializer constructor. Basically it is same as Default Constructor but with diffrent syntax.
             var objectInitializeObj = new ObjectInitializers
@@ -38,10 +70,6 @@ namespace CSBasic
 
             // This is example of Parameterized constructor
             var parameterizedObj = new ParameterizedConstructor(9.9, "BatMan");
-            
-
-            
-
             System.Console.WriteLine("---------------------------\n");
 
             // This is the GenercInterface Demo
@@ -61,6 +89,7 @@ namespace CSBasic
                 itemSlNo++;
             }
             idObj.DisplayItem();
+            System.Console.WriteLine("---------------------------\n");
 
             // This is the ExceptionDemo demo
             System.Console.WriteLine("----- ExceptionDemo Demo -----");
@@ -104,11 +133,11 @@ namespace CSBasic
             hotelObject.CalculateRevenues(210784.19);
             System.Console.WriteLine("---------------------------\n");
 
-            //This is the test to call python method from C#
-            System.Console.WriteLine("----- Python Test Demo -----");
-            var pyObj = new CallingPy();
-            pyObj.CallPy();
-            System.Console.WriteLine("---------------------------\n");
+            ////This is the test to call python method from C#
+            //System.Console.WriteLine("----- Python Test Demo -----");
+            //var pyObj = new CallingPy();
+            //pyObj.CallPy();
+            //System.Console.WriteLine("---------------------------\n");
 
             // this is Inheritence demo
             var itCompObj = new CompanyIT(170926, "Kite");

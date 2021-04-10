@@ -52,10 +52,14 @@
     <Compile Include="CompanyIT.cs" />
     <Compile Include="CompanyShipping.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="EnumDemo.cs" />
     <Compile Include="ExceptionDemo.cs" />
     <Compile Include="FlowAndLoop.cs" />
     <Compile Include="ForEach.cs" />
     <Compile Include="FormattingSpecifier.cs" />
+    <Compile Include="LambdaMethod.cs" />
+    <Compile Include="NullableTypeDemo.cs" />
+    <Compile Include="NullCheckingDemo.cs" />
     <Compile Include="ObjectInitializerDemo.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="IAccessories.cs" />
