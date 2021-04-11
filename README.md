@@ -247,7 +247,7 @@ Follow through the comments and you will see what all is required to have a gene
 **NOTE** that using 'T' is a common practice to represent generic parameters.
 You can also use other name like 'TMessage', 'TValue' etc to be more descriptive, especially when there are more than 1 generic parameter.
 
-### Generic Constraints
+### 27. Generic Constraints
 Generic Constraints concept is demostrated in the file **GenericConstraints.cs**.
 This file demos the generic constraints.
 Here is a writeup on the supported constraints
