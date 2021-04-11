@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * This file demonstrates the use of Enums.
+ * Enums are data types that is used to represent a numebric value.
+ * The vaue starts from 0 by default. But it can be configured.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

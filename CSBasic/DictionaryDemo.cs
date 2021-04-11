@@ -1,4 +1,18 @@
-﻿using System;
+﻿/*
+ * This file demonstrates the use of Dictionary. 
+ * Dictionaries are datatype in C# that can be used to keep key-value pair.
+ * 
+ * This file demonstrates the below concepts:
+ * - Initializing a dictionary.
+ * - Additng item to dictionary
+ * - Get Item from dictionary
+ * - Check if an item exists in a dictionary
+ * - Return item from dictionay only if it exists.
+ * - Loop a dictionary on Key
+ * - Loop a dictionary on Value
+ * - Loop dictionary on elements
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +28,8 @@ namespace CSBasic
         {
             Hero = new Dictionary<string, string>()
             {
-                ("BatMan", "Bruce"),
-                ("SpiderMan", "Peter"),
+                { "BatMan", "Bruce" },
+                { "SpiderMan", "Peter" },
             };
         }
 
@@ -24,7 +38,7 @@ namespace CSBasic
             try
             {
                 Hero.Add(realName, superHeroName);
-            }                
+            }
             catch (ArgumentException ex)
             {
                 Console.WriteLine("Not Adding the (Key, Value) pair since duplicate key Exists");
@@ -35,14 +49,14 @@ namespace CSBasic
         public void DictOfObject()
         {
             // Initialize the objects
-            Bruce = new SuperHero() { heroname = "BatMan", City = "Gotham", FightsWith = "Joker", Power = 10.00 };
-            Peter = new SuperHero() { heroname = "SpiderMan", City = "New York", FightsWith = "Dr", Power = 7.00 };
+            var Bruce = new SuperHero( "BatMan", "Gotham", "Joker", 10.00 );
+            var Peter = new SuperHero( "SpiderMan", "New York", "Dr", 7.00 );
 
             // Create dictionary of objects. This dictionary NewHero have values SuperHero class object.
             var NewHero = new Dictionary<string, SuperHero>()
             {
-                ("Bruce", Bruce),
-                ("Peter", Peter),
+                { "Bruce", Bruce },
+                { "Peter", Peter},
             };
         }
 
@@ -67,17 +81,16 @@ namespace CSBasic
 
         public string GetDictItemTryGet(string key)
         {
-            string outVar;
-            if (Hero.TryGetValue(key))
+            if (Hero.TryGetValue(key, out string value))
             {
-                return Hero[key];
+                return value;
             }
             return ("None");
         }
 
         public void LoopDictKeys()
         {
-            foreach(var key in Hero.Keys)
+            foreach (var key in Hero.Keys)
             {
                 Console.WriteLine(Hero[key]);
             }
@@ -100,8 +113,5 @@ namespace CSBasic
                 Console.WriteLine($"key: {key}, value: {value}");
             }
         }
-
-
     }
-   
 }
