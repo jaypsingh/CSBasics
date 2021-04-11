@@ -141,7 +141,7 @@ If not then . will be used and the expression will be evaluated further. *
 
 
 ### 15. Object Initializer:
-Object Initializer concept is demostrated in the file **ObjectInitializerDemo.cs**.
+Object Initializer concept is demostrated in the file **ObjectInitializerDemo.cs and SuperHero.cs**.
 This class is used to demo object initializers for C#.
 **NOTE** that this file will hav 3 classes for the demo purpose.
 There are three ways how object can be initialized. 
@@ -186,3 +186,49 @@ This file demonstrates the use of iDisposable.
 The concept simply tells how C# handles if the file or stream is not closed before the program exits.
 This file demonstrates the use of below statement
 - using
+
+### 22.Inheritence and Abstract class:
+Inheritancce concept is demostrated in the file **Company.cs and CompanyIT.cs**.
+*Company* class is meant to serve as the base class for the demo or inheritence.
+**NOTE** that C# support only single inheritence.
+
+*CompanyIT* class is used to demonstrate the concept of Inheritence.
+CompanyIT inherits the class Company.
+
+Please notice that the methods in Company class is re-used, abstract classes are impemented and virtual methods are over-riddedn.
+
+Below cocepts will be demoed using Company.cs and CompanyIT.cs:
+- Inheritence
+- Abstract class
+- Virtual Methods
+- Method over-riding
+
+### 23.Interface:
+Reading and Writing to File concept is demostrated in the file **ICompany.cs, CompanyHospitality.cs and CompanyShipping.cs**.
+*CompanyHospitality* and *CompanyShipping* class is used to demonstrate the concept of Interface.
+Thiese classes implements the interface ICompany.
+
+You can notice how this is different from an Abstract class.
+Also please notice that all the methods and getters and setters are declared in the interface. 
+All the implementation is done here.
+
+ICompany class is meant to serve as the interface class for the demo or ICompany
+**NOTE** that C# support only single inheritence but more than 1 inerface can be implemented by the class.
+Also it is a standart practice to start the interface name with "I", ICompany in this case.
+
+Below cocepts will be demoed using ICompany.cs, CompanyHospitality.cs and CompanyShipping.cs
+- Interface
+- more than once class can implememt the same interface
+- a class can implement more than one interface as well
+
+### 24.Generic Interface:
+Generic Interface concept is demostrated in the file **AccessoriesArray.cs, AccessoriesList.cs and IAccessories.cs**.
+*AccessoriesArray* and *AccessoriesList* class is used to demonstrate Generic Interface.
+This implements IAccessories
+Also please look AccessoriesList.
+*IAccessories* class is a generic iterface.
+The idea is to demo how this same interface can be used work on diffrent kind of data.
+Please note that here only one generic <T> is used. 
+But more than one generic can also be used in similar faishon. 
+
+*AccessoriesList* and *AccessoriesArray* class implements this interface.
