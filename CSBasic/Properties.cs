@@ -1,6 +1,9 @@
 ﻿/*
 * This files demos the below concept:
 * - Class Properties (getters and setters)
+* - Autoimplemented Properties
+* - Calculated value properties
+* - Expression Value properties
 */
 using System;
 using System.Collections.Generic;

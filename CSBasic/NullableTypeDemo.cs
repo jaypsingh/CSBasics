@@ -1,6 +1,6 @@
 ﻿/*
  * Nullable type is a value type that allows defination of a value or null.
- * Thisi class helps us to demo the below concepts
+ * This class helps us to demo the below concepts
  * - Nullable Types
  */ 
 using System;

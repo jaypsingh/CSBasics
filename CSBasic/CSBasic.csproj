@@ -52,6 +52,7 @@
     <Compile Include="CompanyIT.cs" />
     <Compile Include="CompanyShipping.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="DictionaryDemo.cs" />
     <Compile Include="EnumDemo.cs" />
     <Compile Include="ExceptionDemo.cs" />
     <Compile Include="FlowAndLoop.cs" />

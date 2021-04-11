@@ -1,6 +1,6 @@
 ﻿/*
  * C# supports ?. operator to check null values. 
- * This class demos the use of ?. operator for null checjing
+ * This class demos the use of ?. operator for null checking
  * ?. is evaluated as "if null then null, if not then dot"
  * That means if left side or the operator is null then the expression is null and the expression will not be evaluated further.
  * If not then . will be used and the expression will be evaluated further. * 

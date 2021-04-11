@@ -2,7 +2,7 @@
  * This class is used to demo object initializers for C#.
  * NOTE that this file will hav 3 classes for the demo purpose.
  * There are three ways how object can be initialized. 
- * Default Constructor, Parameterized Constructor and Object Initializers.  * 
+ * Default Constructor, Parameterized Constructor and Object Initializers.
  * CSBasic.cs and Unit Test will demonstate the object initilization
  */
 using System;

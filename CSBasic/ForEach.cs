@@ -2,7 +2,7 @@
 * This files demos the below concept:
 * - foreach loop
 * 
-* This is also explaine with other loops in FlowAndLoop.cs file. 
+* This is also explained with other loops in FlowAndLoop.cs file. 
 * Please do refer to that as well.
 */
 
