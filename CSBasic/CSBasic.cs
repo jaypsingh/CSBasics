@@ -22,7 +22,31 @@ namespace CSBasic
             System.Console.WriteLine("---------------------------");
             System.Console.WriteLine("---------------------------\n");
 
-            //This is LambdaMethod
+
+            //This is TClassOne demo
+            Console.WriteLine("--- Demo TClassOne ----");
+            // Notice how the class name incudes the type so that any data type can be used as generic parameter.
+            var tClassStrObj = new TClassOne<string>("Archer");
+            var tClassDobuleObj = new TClassOne<Double>(21.19);
+            var tClassIntObj = new TClassOne<int>(19);
+
+            System.Console.WriteLine($"GenericClassVar :: {tClassStrObj.GenericClassVar}");
+            System.Console.WriteLine($"GenericClassVar :: {tClassDobuleObj.GenericClassVar}");
+            System.Console.WriteLine($"GenericClassVar :: {tClassIntObj.GenericClassVar}");
+            Console.WriteLine("-----------------------------\n");
+
+            //This is TClassMany demo
+            Console.WriteLine("--- Demo TClassMany ----");
+            // Notice how the class name incudes the type so that any data type can be used as generic parameter.
+            var tObjOne = new TClassMany<string, int>("Archer", 21);
+            var tObjTwo = new TClassMany<int, double>(19, 10.11);
+
+            System.Console.WriteLine($"Var1: {tObjOne.VarOne}, var2: {tObjOne.VarTwo}");
+            System.Console.WriteLine($"Var1: {tObjTwo.VarOne}, var2: {tObjTwo.VarTwo}");
+            Console.WriteLine("-----------------------------\n");
+
+
+            //This is LambdaMethod demo
             System.Console.WriteLine("----- LambdaMethod Demo -----");
             var lamdaObj = new LambdaMethod();
             var sumValue = lamdaObj.GetSum(11.1, 22.2);

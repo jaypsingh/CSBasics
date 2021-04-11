@@ -232,3 +232,27 @@ Please note that here only one generic <T> is used.
 But more than one generic can also be used in similar faishon. 
 
 *AccessoriesList* and *AccessoriesArray* class implements this interface.
+
+### 25.Generic Method:
+Generic Method concept is demostrated in the file **TMethod.cs**.
+This file demos how we can create generic method that cam accept variable of any data type.
+Follow through the comments and you will see what all is required to have a generic method.
+**NOTE** that using 'T' is a common practice to represent generic parameters.
+You can also use other name like 'TMessage', 'TValue' etc to be more descriptive, especially when there are more than 1 generic parameter.
+
+### 26.Generic Class:
+Generic Class concept is demostrated in the file **TClassOne.cs and TClassMany.cs**.
+This file demos how we can create generic class with single variable that is generic.
+Follow through the comments and you will see what all is required to have a generic class.
+**NOTE** that using 'T' is a common practice to represent generic parameters.
+You can also use other name like 'TMessage', 'TValue' etc to be more descriptive, especially when there are more than 1 generic parameter.
+
+### Generic Constraints
+Generic Constraints concept is demostrated in the file **GenericConstraints.cs**.
+This file demos the generic constraints.
+Here is a writeup on the supported constraints
+where T : struct     <= Value Type
+where T : class      <= Reference Type
+where T : new()      <= Type has a parameterless constructor
+where T : vendor()   <= Be or derive from a class (for example class Vendor)
+where T : IVendor    <= Be or implement the IVendor interface

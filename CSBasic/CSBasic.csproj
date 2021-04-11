@@ -58,6 +58,7 @@
     <Compile Include="FlowAndLoop.cs" />
     <Compile Include="ForEach.cs" />
     <Compile Include="FormattingSpecifier.cs" />
+    <Compile Include="GenericConstraints.cs" />
     <Compile Include="LambdaMethod.cs" />
     <Compile Include="NullableTypeDemo.cs" />
     <Compile Include="NullCheckingDemo.cs" />
@@ -76,6 +77,9 @@
     <Compile Include="CSBasic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuperHero.cs" />
+    <Compile Include="TClassMany.cs" />
+    <Compile Include="TClassOne.cs" />
+    <Compile Include="TMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
