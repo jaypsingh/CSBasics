@@ -103,7 +103,7 @@ This files demos the below concept:
  for example see the main method.
 
  Also you can see below example
- ```
+ ```cs
  Class DemoStatic
  {
     public DemoStatic()
@@ -114,11 +114,11 @@ This files demos the below concept:
      static public DemoStatic(double newNumber)
      {
 
-       number.Add(newNumber); **// number must be static since this is a static method**
+       number.Add(newNumber); // number must be static since this is a static method
  
      }
 
-     static private List<double> number; **// note that this is static member**
+     static private List<double> number; // note that this is static member
  }
  ```
  
