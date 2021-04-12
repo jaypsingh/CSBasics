@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="ArrayDemoTests.cs" />
     <Compile Include="BreakContinueTests.cs" />
+    <Compile Include="ConstructorTests.cs" />
+    <Compile Include="DictionaryDemoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
