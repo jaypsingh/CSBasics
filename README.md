@@ -155,7 +155,7 @@ This file demonstrates the concept of
 - method overloading 
 
 ### 17. String Interpolation:
-String Interpolation Loading concept is demostrated in the file **StringInterpolation.cs**.
+String Interpolation concept is demostrated in the file **StringInterpolation.cs**.
 This files demos the below concept:
 - string interpolation
 
@@ -204,7 +204,7 @@ Below cocepts will be demoed using Company.cs and CompanyIT.cs:
 - Method over-riding
 
 ### 23.Interface:
-Reading and Writing to File concept is demostrated in the file **ICompany.cs, CompanyHospitality.cs and CompanyShipping.cs**.
+Interface concept is demostrated in the file **ICompany.cs, CompanyHospitality.cs and CompanyShipping.cs**.
 *CompanyHospitality* and *CompanyShipping* class is used to demonstrate the concept of Interface.
 Thiese classes implements the interface ICompany.
 
