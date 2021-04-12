@@ -13,8 +13,12 @@ using System.Threading.Tasks;
 
 namespace CSBasic
 {
-    class Constructor
+    public class Constructor
     {
+        // This is the variable declaration for the class
+        public List<Double> number;
+        private string name;
+
         public Constructor(string name)
         {   
             // this is the defination for the declared variable. 
@@ -27,16 +31,17 @@ namespace CSBasic
             this.name = name;
         }
 
-        public void AddNumber(double newNumber)
+        public void AddNumberToList(double newNumber)
         {
-            number.Add(newNumber);
             System.Console.WriteLine($"Length of the list is:: {number.Count}");
-            System.Console.WriteLine($"Name of the book is:: {name}");
+            number.Add(newNumber);
         }
 
-        // This is the variable declaration for the class
-        public List<Double> number;
-        private string name;
+        public string GetBookName()
+        {
+            System.Console.WriteLine($"Name of the book is:: {name}");
+            return name;
+        }
 
     }
 }

@@ -20,9 +20,9 @@ using System.Threading.Tasks;
 
 namespace CSBasic
 {
-    class DictionaryDemo
+    public class DictionaryDemo
     {
-        Dictionary<string, string> Hero;
+        public Dictionary<string, string> Hero;
 
         public DictionaryDemo()
         {

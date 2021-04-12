@@ -216,7 +216,9 @@ namespace CSBasic
             // this is Constuctor demo
             var constructorObj = new Constructor("StoryBook");
             System.Console.WriteLine("----- Constuctor Class Demo -----");
-            constructorObj.AddNumber(1.3);
+            constructorObj.AddNumberToList(1.3);
+            var bookName = constructorObj.GetBookName();
+            Console.WriteLine($"BookName is: {bookName}");
             System.Console.WriteLine("---------------------------\n");
 
             // this is a array demo
