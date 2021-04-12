@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSBasicTests
+namespace CSBasic.Tests
 {
     [TestClass()]
     public class ArrayDemoTests

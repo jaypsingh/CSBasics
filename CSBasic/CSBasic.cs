@@ -133,8 +133,9 @@ namespace CSBasic
 
             //This is the BreakContinue demo
             System.Console.WriteLine("----- BreakContinue Demo -----");
-            var bcObj = new BreakContinue();
-            bcObj.DemoBreakContinue();
+            var brkConObj = new BreakContinue();
+            brkConObj.DemoBreak();
+            brkConObj.DemoContinue();
             System.Console.WriteLine("---------------------------\n");
 
             //This is the ReadWriteFile demo

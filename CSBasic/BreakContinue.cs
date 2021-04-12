@@ -11,25 +11,34 @@ using System.Threading.Tasks;
 
 namespace CSBasic
 {
-    class BreakContinue
-    {
-        public void DemoBreakContinue()
+    public class BreakContinue
+    {   
+        public List<string> DemoBreak()
         {
             var nameList = new List<string>() { "jay", "kairav", "bijay", "sujata", "bruce", "batman", "alferd" };
+            var breakList = new List<string>();
 
-            // This loop deonstrates the use of break.
-            // break breaks the execution flow and comes out
-            // when a condition is met
-            Console.WriteLine("Demoing Break...");
+        // This loop deonstrates the use of break.
+        // break breaks the execution flow and comes out
+        // when a condition is met
+        Console.WriteLine("Demoing Break...");
             foreach(var item in nameList)
-            {
+            {                
                 if (item == "bruce")
                 {
-                    Console.WriteLine("won't print names beyound sujata...\n");
+                    Console.WriteLine("won't print names beyound sujata...\n");                    
                     break;
                 }
-                Console.WriteLine($"name: {item}");
+                breakList.Add(item);
+                Console.WriteLine($"name: {item}");                
             }
+            return breakList;
+        }
+
+        public List<string> DemoContinue()
+        {
+            var nameList = new List<string>() { "jay", "kairav", "bijay", "sujata", "bruce", "batman", "alferd" };
+            var continueList = new List<string>();
 
             // This loop deonstrates the use of continue.
             // continue skips the iteration where condition is met and jumps to the next itteration.
@@ -39,11 +48,13 @@ namespace CSBasic
             {
                 if (item == "bruce")
                 {
-                    Console.WriteLine("will print names till alferd...\n");
+                    Console.WriteLine("will print names till alferd...\n");                    
                     continue;
                 }
+                continueList.Add(item);
                 Console.WriteLine($"name: {item}");
             }
+            return continueList;
         }
 
     }
