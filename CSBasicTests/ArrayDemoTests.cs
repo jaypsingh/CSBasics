@@ -14,14 +14,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void SumDoubleArrayTest()
         {
-            System.Console.WriteLine("----- SumDoubleArrayTest Test Run -----");
-
             //Arrange
-            var intArrObj = new ArrayDemo();
+            var handleObj = new ArrayDemo();
             var expectedValue = 6.6;
 
             //Act
-            var actualValue = intArrObj.SumDoubleArray();
+            var actualValue = handleObj.SumDoubleArray();
 
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
@@ -30,14 +28,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void SumIntArrayTest()
         {
-            System.Console.WriteLine("----- SumIntArrayTest Test Run -----");
-
             //Arrange
-            var intArrObj = new ArrayDemo();
+            var handleObj = new ArrayDemo();
             var expectedValue = 3;
 
             //Act
-            var actualValue = intArrObj.SumIntArray();
+            var actualValue = handleObj.SumIntArray();
 
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
@@ -46,14 +42,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void GetItemIndexTest()
         {
-            System.Console.WriteLine("----- GetItemIndexTest Test Run -----");
-
             //Arrange
-            var arrObj = new ArrayDemo();
+            var handleObj = new ArrayDemo();
             var expectedValue = 1;
 
             //Act
-            var actualValue = arrObj.GetItemIndex("orange");
+            var actualValue = handleObj.GetItemIndex("orange");
 
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
@@ -62,14 +56,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void GetItemCountTest()
         {
-            System.Console.WriteLine("----- GetItemCountTest Test Run -----");
-
             //Arrange
-            var arrObj = new ArrayDemo();
+            var handleObj = new ArrayDemo();
             var expectedValue = 3;
 
             //Act
-            var actualValue = arrObj.GetItemCount();
+            var actualValue = handleObj.GetItemCount();
 
             //Assert
             Assert.AreEqual(expectedValue, actualValue);
@@ -78,14 +70,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void SetArrayValueTest()
         {
-            System.Console.WriteLine("----- GetItemCountTest Test Run -----");
-
             //Arrange
-            var arrObj = new ArrayDemo();
+            var handleObj = new ArrayDemo();
             var expectedValue = new string[] { "apple", "grape", "banana" };
 
             //Act
-            var actualValue = arrObj.SetArrayValue(1, "grape");
+            var actualValue = handleObj.SetArrayValue(1, "grape");
 
             //Assert
             CollectionAssert.AreEqual(expectedValue, actualValue);

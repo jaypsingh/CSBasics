@@ -14,14 +14,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void DemoBreakTest()
         {
-            System.Console.WriteLine("----- DemoBreakTest Test Run -----");
-
             //Arrange
-            var brkConObj = new BreakContinue();
+            var handleObj = new BreakContinue();
             var expectedValue = new List<string>() { "jay", "kairav", "bijay", "sujata"};
 
             //Act
-            var actualValue = brkConObj.DemoBreak();           
+            var actualValue = handleObj.DemoBreak();           
 
             //Assert
             CollectionAssert.AreEqual(expectedValue, actualValue);
@@ -30,14 +28,12 @@ namespace CSBasic.Tests
         [TestMethod()]
         public void DemoContinueTest()
         {
-            System.Console.WriteLine("----- DemoContinueTest Test Run -----");
-
             //Arrange
-            var brkConObj = new BreakContinue();
+            var handleObj = new BreakContinue();
             var expectedValue = new List<string>() { "jay", "kairav", "bijay", "sujata", "batman", "alferd" };
 
             //Act
-            var actualValue = brkConObj.DemoContinue();
+            var actualValue = handleObj.DemoContinue();
 
             //Assert
             CollectionAssert.AreEqual(expectedValue, actualValue);
