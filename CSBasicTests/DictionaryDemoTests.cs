@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-
+ 
 namespace CSBasic.Tests
 {
     [TestClass()]
@@ -25,8 +25,8 @@ namespace CSBasic.Tests
             };
 
             //Act
-            handleObj.AddItemToDict("Wade", "Deadpool");
-            var actualValue = handleObj.Hero;
+            handleObj.AddItemToDict("Deadpool", "Wade");
+            var actualValue = handleObj.Hero;            
 
             //Asert
             CollectionAssert.AreEqual(expectedValue, actualValue);

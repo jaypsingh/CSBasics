@@ -33,11 +33,11 @@ namespace CSBasic
             };
         }
 
-        public void AddItemToDict(string realName, string superHeroName)
+        public void AddItemToDict(string superHeroName, string realName)
         {
             try
             {
-                Hero.Add(realName, superHeroName);
+                Hero.Add(superHeroName, realName);
             }
             catch (ArgumentException ex)
             {
