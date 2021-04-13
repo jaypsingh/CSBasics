@@ -55,6 +55,7 @@
     <Compile Include="BreakContinueTests.cs" />
     <Compile Include="ConstructorTests.cs" />
     <Compile Include="DictionaryDemoTests.cs" />
+    <Compile Include="EnumDemoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

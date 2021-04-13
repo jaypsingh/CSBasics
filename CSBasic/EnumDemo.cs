@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CSBasic
 {
-    class EnumDemo
+    public class EnumDemo
     { 
         public enum Options
         {
@@ -35,7 +35,7 @@ namespace CSBasic
 
             Console.WriteLine($"String Value of Batman: {SuperHero.BatMan}, DeadPool: {SuperHero.Deadpool}, SuperMan: {SuperHero.SuperMan}");
             Console.WriteLine($"Integer value of Batman: {(int)SuperHero.BatMan}, DeadPool: {(int)SuperHero.Deadpool}, SuperMan: {(int)SuperHero.SuperMan}");
-        }
+        }        
     }
 }
 
