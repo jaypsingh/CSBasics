@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -201,7 +202,8 @@ namespace CSBasic
             // this is FlowAndLoops demo
             var loopObj = new FlowAndLoop();
             System.Console.WriteLine("----- FlowAndLoops Class Demo -----");
-            loopObj.PrintIfTrue();
+            var testIfLoop = loopObj.PrintIfTrue(10);
+            var testElseLoop = loopObj.PrintIfTrue(21);
             loopObj.AddListNumbersDoWhile();
             loopObj.AddListNumbersWhile();
             loopObj.AddListNumbersFor();

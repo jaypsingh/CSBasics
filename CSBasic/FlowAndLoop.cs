@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace CSBasic
 {
-    class FlowAndLoop
+    public class FlowAndLoop
     {
         public FlowAndLoop()
         {
@@ -35,19 +35,25 @@ namespace CSBasic
             return sum;
         }
 
-        public void PrintIfTrue()
+        public double PrintIfTrue(double compareNumber)
         {
             // This method prints the larget number if the larget number is greater than the test number
             // This also demos the use of "if" statment in C#
-            var largestNumber = AddListNumbersForEach();
-            if (largestNumber > 0)
+            var listNumberSum = AddListNumbersForEach();
+            if (listNumberSum > compareNumber)
             {
-                System.Console.WriteLine("If loop demo : Pass");
-            }         
+                System.Console.WriteLine("If loop demo : ListNumberSum is larger");
+                return listNumberSum;
+            }   
+            else
+            {
+                System.Console.WriteLine("If loop demo : compareNumber is larger");
+                return compareNumber;
+            }
 
         }
 
-        public void AddListNumbersDoWhile()
+        public double AddListNumbersDoWhile()
         {
             // This method demos the use of do-while loop
             int index = 0;
@@ -59,9 +65,10 @@ namespace CSBasic
             } while (index < numbers.Count);
 
             System.Console.WriteLine($"Do-While Loop Demo Sum of all items : {sum}");
+            return sum;
         }
 
-        public void AddListNumbersWhile()
+        public double AddListNumbersWhile()
         {
             // This method demos the use or while loop
             int index = numbers.Count;            
@@ -73,10 +80,11 @@ namespace CSBasic
             }
 
             System.Console.WriteLine($"While Loop Demo Sum of all items : {sum}");
+            return sum;
 
         }
 
-        public void AddListNumbersFor()
+        public double AddListNumbersFor()
         {
             // This method demos the use or For loop
             double sum = 0;
@@ -86,6 +94,7 @@ namespace CSBasic
             }
 
             System.Console.WriteLine($"For Loop Demo Sum of all items : {sum}");
+            return sum;
 
         }
 
