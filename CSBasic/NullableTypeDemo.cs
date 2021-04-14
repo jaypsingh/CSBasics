@@ -3,11 +3,6 @@
  * This class helps us to demo the below concepts
  * - Nullable Types
  */ 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSBasic
 {

@@ -4,11 +4,6 @@
  * NOTE that using 'T' is a common practice to represent generic parameters.
  * You can also use other name like 'TMessage', 'TValue' etc to be more descriptive, especially when there are more than 1 generic parameter.
  */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSBasic
 {

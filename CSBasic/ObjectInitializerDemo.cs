@@ -5,12 +5,6 @@
  * Default Constructor, Parameterized Constructor and Object Initializers.
  * CSBasic.cs and Unit Test will demonstate the object initilization
  */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace CSBasic
 {
     // This class will be used to demo Default Consturctor 

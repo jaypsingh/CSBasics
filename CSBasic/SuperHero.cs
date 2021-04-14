@@ -4,10 +4,6 @@
  * This class will just have the class and it's Constructor. 
 */
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSBasic
 {
